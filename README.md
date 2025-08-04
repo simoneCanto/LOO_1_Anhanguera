@@ -168,3 +168,6 @@ java Animal
 
 ------------------------------------------------
 
+✍️ Autora
+Simone Tatiane do Canto – Professora de Linguagem Orientada a Objetos
+📧 Contato: simone.canto@cogna.com.br
