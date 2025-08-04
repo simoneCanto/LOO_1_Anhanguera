@@ -4,7 +4,8 @@
 Este projeto implementa uma **classe `Animal` em Java** para representar características e comportamentos básicos de um animal, utilizando conceitos fundamentais de programação orientada a objetos (POO).
 
 ---
-🔍 Significado dos Tipos de Dados
+# 🔍 Significado dos Tipos de Dados
+
 String → Representa uma sequência de caracteres (texto).
 
 Usa aspas duplas "texto".
@@ -24,7 +25,7 @@ Não usa aspas.
 char → Um único caractere, armazenado entre aspas simples 'c'.
 
 --------------------------------------------------------------------------------------
-📌 Tipos de Aspas no Java
+# 📌 Tipos de Aspas no Java
 
 | Tipo de Dado              | Aspas Utilizadas  | Exemplo         |
 
@@ -40,13 +41,13 @@ char → Um único caractere, armazenado entre aspas simples 'c'.
 
 ---------------------------------------------------------------------------------------------
 
-📌 Finalidade de Cada Comando e Estrutura
-public class Animal { ... }
-Define uma classe chamada Animal.
+# 📌 Finalidade de Cada Comando e Estrutura
+public class Animal { ... }; Define uma classe chamada Animal.
 
-Em Java, classe é um molde que define atributos (dados) e métodos (ações) que um objeto poderá ter.
+# Em Java, classe é um molde que define atributos (dados) e métodos (ações) que um objeto poderá ter.
 
-Atributos da classe
+# Atributos da classe
+
 String nomeAnimal; → Nome do animal.
 
 int numeroDePatas; → Quantidade de patas.
@@ -63,20 +64,15 @@ String tipoAlimentacao; → Tipo de comida que consome.
 
 char genero; → Gênero ('M' ou 'F').
 
-public void printStatus()
-
-
-Método que não retorna valor (void).
+public void printStatus(); Método que não retorna valor (void).
 
 Imprime todos os atributos do animal usando System.out.println().
 
-System.out.println()
-Comando para exibir informações no console.
+System.out.println(); Comando para exibir informações no console.
 
 Ex.: System.out.println("Nome: " + nomeAnimal); imprime Nome: Euclides.
 
-public static void main(String[] args)
-Método principal, ponto de entrada do programa.
+public static void main(String[] args); Método principal, ponto de entrada do programa.
 
 public → Pode ser acessado de qualquer lugar.
 
@@ -86,38 +82,38 @@ void → Não retorna valor.
 
 String[] args → Argumentos de linha de comando (não usados aqui).
 
-Criação de Objeto
+# Criação de Objeto
 
 Animal cachorro = new Animal();
 
 Cria uma instância (objeto) da classe Animal.
 
-Atribuição de valores
+# Atribuição de valores
 
 cachorro.nomeAnimal = "Euclides";
 
 Define valores para os atributos do objeto criado.
 
-Chamada de método
+# Chamada de método
 
 cachorro.printStatus();
 
 Executa o método que imprime os atributos.
 
 🧠 Por que o código foi estruturado assim?
-Separação de responsabilidades:
+# Separação de responsabilidades:
 
 Os atributos armazenam as informações do animal.
 
 O método printStatus() é responsável apenas por exibir essas informações.
 
-Orientação a Objetos:
+# Orientação a Objetos:
 
 Facilita a criação de múltiplos animais sem duplicar código.
 
 Cada animal pode ter seus próprios valores.
 
-Clareza e manutenção:
+# Clareza e manutenção:
 
 Caso seja necessário mudar a forma de exibir as informações, basta alterar o método printStatus().
 
@@ -156,12 +152,19 @@ java Animal
 
 📌 Exemplo de Saída
 
-Nome: Euclides
-Número de patas: 4
-Tem rabo? true
-Cor: Tigrado
-Idade: 4
-Tipo de alimentação: Ração
-Genero: M
+# Nome: Euclides
+
+# Número de patas: 4
+
+# Tem rabo? true
+
+# Cor: Tigrado
+
+# Idade: 4
+
+# Tipo de alimentação: Ração
+
+# Genero: M
+
 ------------------------------------------------
 
